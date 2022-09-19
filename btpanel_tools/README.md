@@ -4,21 +4,10 @@
 ###### 作品截图
  ![btpanel_tools](https://raw.githubusercontent.com/gacjie/btpanel_tools/main/btpanel_tools.jpg)   
 
-###### 技术交流
-脚本官网：www.btpanel.cm  
-技术教程：www.baota.me  
-QQ交流群：365208828       
-TG交流群：t.me/btfans   
-
-###### github项目地址命令   
- **[(点此免费领取0.99元专业版体验券，3188元大礼包)](https://www.bt.cn/?invite_code=MV9yaHFycXY=)**      
-    
 ```shell-session
-wget -O btpanel_tools.sh https://download.btpanel.cm/tools/btpanel_tools.sh && bash btpanel_tools.sh
+wget -O btpanel_tools.sh https://cdn.jsdelivr.net/gh/Jiaocha/bt77happy@main/btpanel_tools/btpanel_tools.sh && bash btpanel_tools.sh
 ``` 
 
-因gitee限制以及github网络问题，导致脚本无法正常使用，因此取消git版本，仅用于代码展示。    
-    
 ###### 功能说明
 ()清理垃圾[清理系统面板网站产生的缓存日志文件慎用]   
 ()系统优化[优化系统部分设置暂时只支持centos7.X]  
