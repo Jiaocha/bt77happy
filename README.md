@@ -31,3 +31,9 @@ rm -f /www/server/panel/data/bind.pl
 ```Bash
 chattr +i /www/server/panel/data/plugin.json
 ```
+
+# 宝塔linux工具箱优化脚本
+一键修改宝塔面板模板、去除强制登陆、一键修复面板、一键更换yum源、清除系统垃圾缓存、系统优化等
+```Bash
+wget -O btpanel_tools.sh https://cdn.jsdelivr.net/gh/Jiaocha/bt77happy@main/btpanel_tools/btpanel_tools.sh && bash btpanel_tools.sh
+```
