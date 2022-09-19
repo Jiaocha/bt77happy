@@ -1,3 +1,7 @@
+#宝塔面板7.7原版安装
+```Bash
+curl -sSO https://raw.githubusercontent.com/Jiaocha/bt77happy/main/install/install_panel.sh && bash install_panel.sh
+```
 
 **宝塔7.7原版一键开心脚本**
 ```Bash
