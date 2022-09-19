@@ -523,7 +523,7 @@ back_home(){
 # 退出脚本
 delete(){
     clear
-    echo -e "感谢使用筱杰宝塔工具箱"
+    echo -e "感谢使用宝塔工具箱"
     rm -rf /btpanel_tools.sh
     rm -rf btpanel_tools.sh
 }
