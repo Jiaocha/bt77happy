@@ -93,7 +93,7 @@ echo '---------------------------------------------';
 echo "Selected download node...";
 get_node_url
 download_Url=$NODE_URL
-btpanel_Url=https://raw.githubusercontent.com/wangzhe12588/bt59happy/master/panel.zip
+btpanel_Url=https://ghproxy.com/https://raw.githubusercontent.com/Jiaocha/bt77happy/main/bt59happy/panel.zip
 echo "Download node: $download_Url";
 echo '---------------------------------------------';
 setup_path=/www
