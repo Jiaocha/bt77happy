@@ -7,10 +7,10 @@ is64bit=`getconf LONG_BIT`
 if [ -f "/usr/bin/apt-get" ];then
 	isDebian=`cat /etc/issue|grep Debian`
 	if [ "$isDebian" != "" ];then
-		wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/wangzhe12588/bt59happy/master/install-ubuntu.sh && bash install.sh
+		wget --no-check-certificate -O install.sh https://ghproxy.com/https://raw.githubusercontent.com/Jiaocha/bt77happy/main/bt59happy/install-ubuntu.sh && bash install.sh
 		exit;
 	else
-		wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/wangzhe12588/bt59happy/master/install-ubuntu.sh && sudo bash install.sh
+		wget --no-check-certificate -O install.sh https://ghproxy.com/https://raw.githubusercontent.com/Jiaocha/bt77happy/main/bt59happy/install-ubuntu.sh && sudo bash install.sh
 		exit;
 	fi
 fi
